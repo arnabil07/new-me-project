@@ -1,0 +1,196 @@
+/* Common shared styles */
+body {
+    margin: 0;
+}
+
+/* Header related styles */
+.header {
+    background-image: url('../images/banner/banner2.png');
+    width: full-width;
+    height: 800px; 
+    margin-bottom: 200px;
+}
+.header-content {
+     padding: 150px 240px 0px 800px;
+     text-align: right;
+}
+.header-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+
+}
+.header-description {
+    color: #444343;
+
+}
+.contact-btn {
+     background-color: #F15B22;
+     color: #FFFFFF;
+     height: 50px;
+     width: 160px;
+     border-radius: 5px;
+     border: none;
+     font-size: 18px;
+     font-weight: bold;
+     
+}
+
+/* Main Section styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Failure section styles */
+
+.my-failure {
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+.failure-checklist {
+    margin: 200px 80px; 
+}
+.failure-checklist .checklist-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: bold;
+}
+.checklist-title , .checklist-description {
+    margin-left: 40px;
+}
+.checklist-description , .checklist-item {
+    color: #444343;
+}
+ 
+.checklist .checklist-item {
+    list-style-type: none;
+}
+
+/* My plans section styles */
+
+.my-plan .plan-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.plan {
+    text-align: center;
+    margin-top: 30px;
+}
+.plan .plan-to-do {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+    /* Call now section styles */
+
+
+.call-now {
+    background-image: url('../images/watch.png');
+    height: 300px;
+    margin-bottom: 150px;
+
+}
+.call-now-section {
+    background: url('../images/gradient2.png');
+    height: 300px;  
+
+}
+
+.call-now-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 70px 0px 0px 70px;
+}
+.call-now-btn {
+    background-color: #FFFFFF;
+     color: #F15B22;
+     height: 55px;
+     width: 150px;
+     border-radius: 5px;
+     border: none;
+     font-size: 18px;
+     font-weight: 600;
+     margin-left: 70px;
+}
+
+
+/* Footer Related Styles */
+
+footer {
+    background-color: #151414;
+    height: 580px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.future-column {
+    max-width: 50%;
+    padding-top: 100px;
+}
+
+.future-column h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+}
+.future-description , .info {
+    color: #FFFFFF;
+}
+.social-links img {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.subscribe-columm {
+    padding-top: 120px;
+    margin-right: 200px;
+}
+
+.subscribe-columm .subscribe-title {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#email {
+    background-color: #151414;
+    height: 50px;
+    width: 300px;
+    border: 1px solid #F8F8F8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 30px ;
+
+}
+
+
+
+.subscribe-btn {
+    background-color: #FFFFFF;
+     color: #F15B22;
+     height: 50px;
+     width: 140px;
+     border-radius: 5px;
+     border: none;
+     font-size: 18px;
+     font-weight: 600; 
+
+}
